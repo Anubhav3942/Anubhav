@@ -1,0 +1,36 @@
+.profiles {
+  width: 200px;
+  height: 300px;
+  border: 3px solid black;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 4px 8px black;
+  transition: 0.1s;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info {
+  padding: 0 20px 0 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info h3::selection {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.info p::selection {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.profiles:hover {
+  box-shadow: 0 8px 16px darkcyan;
+  transform: scale(1.05);
+}

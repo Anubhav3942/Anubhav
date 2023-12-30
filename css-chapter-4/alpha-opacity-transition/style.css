@@ -1,0 +1,47 @@
+/* alphs-opacity */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: #1dff8a;
+  } */
+
+/* in the bgc-#1dff8a00 the last two digit of hex code is the alpha channel [00] means opacity completely hidden and[11] completely visible OR you can set according to you from [0-f] 
+
+jab bgc- me alpha channel opacity dete hai toh ush div k andhar jo others elements visible rahate hai
+*/
+
+/* --------------------- */
+
+/* #op {
+  background-color: #ffff00;
+  opacity: 0.2;
+} */
+
+/* or jab bhum alag se opacity delcare karte hai toh opacity 0 karte hai toh saare elements hidden ho jate hai 
+
+
+like div k andhar bahut saare elements hai woo sab pe bhi effect padta hai.... aggar allag se opacity likh te hai toh 
+
+
+or jab [1] karte hai toh saare elements visible ho jate hai 
+
+
+------------------
+
+or jo 1st wala example dekhe the usme others elements pe koi fark nahi padta hai */
+
+/* -------tarnsition--------- */
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+
+  transition: all 0.25s ease-in-out 0s;
+}
+
+div:hover {
+  background-color: hotpink;
+  border-radius: 50%;
+}

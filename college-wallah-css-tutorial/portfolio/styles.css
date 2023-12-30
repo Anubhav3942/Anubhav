@@ -1,0 +1,207 @@
+/* body {background-color: #e2cfea;}
+    h1   {color: #6247aa;
+    text-align: left;}
+
+main a{color: #a8ffc5;}
+    
+h2 {
+    text-align: center;
+}
+
+footer a {display: flex;
+justify-content: center;
+height: 10rem;} */
+/* 
+=================================== */
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#box {
+    background-color: blue;
+}
+
+.heading {
+    color: red;
+}
+
+button {
+    background-color: green;
+}
+
+p {
+    text-align: left; 
+}
+
+/* we can also write like this to write from left to right & for right to left we use end 
+
+p{text-align: start;} left
+p{text-align: end;} right */
+
+#h1-decoration {
+    text-decoration:rgb(0, 225, 255) underline;
+    color: rgb(255, 137, 2);
+}
+
+a {
+    text-decoration: none;
+}
+
+#head1 h1{
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#head2 h1{
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#head3 h1{
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#head4 h1{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+#cap {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}
+
+#one-hundred {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(35, 149, 248);
+    border: 2px solid black;
+    color: rgb(3, 28, 255);
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+#anubhavvv___ {
+
+    background-color: aquamarine;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+
+
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+/*     
+     instead of writing multiple lines we can write in a shortcut method  */
+
+     border: 2px solid black;
+     border-radius: 10px;
+}
+
+
+
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(32, 192, 255);
+    border: 3px solid black;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 25px;
+    margin: 30px;
+}
+
+#div3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(163, 252, 19, 0.712);
+    border: 3px solid black;
+    /* text-align: center; */
+    border-radius: 50%;
+    padding: 25px;
+    margin-left: 60px;
+}
+
+#tfl {
+    height: 600px;
+    width: 200px;
+    background-color: black; 
+    border: 3px solid rgb(15, 177, 252);
+}
+
+#red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 80px;
+    
+
+}
+
+#yellow {
+    height: 90px;
+    width: 90px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 40px;
+   
+}
+
+#green {
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 80px;
+
+}
+
+
+#navbar {
+    background-color: #0f1111;
+    color: white;
+    height: 35px;
+}
+
+#logo {
+    font-size: 25px;
+    color: #f08804;
+}
+
+button {
+    color: white;
+    background-color: #f08804;
+}
+
+a {
+    margin-right: 200px;
+    color: white;
+    
+}

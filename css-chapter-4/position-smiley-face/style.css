@@ -1,0 +1,90 @@
+/* div {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  text-align: center;
+  border: 2px solid black;
+  margin: 20px;
+  display: inline-block;
+}
+
+#static {
+  background-color: yellow;
+  position: static;
+  top: 100px;
+  left: 100px;
+}
+
+#relative {
+  background-color: yellow;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#absolute {
+  background-color: yellow;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#fixed {
+
+    background-color: orangered;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+} */
+
+/* smiley face  */
+
+.bg {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.face {
+  height: 400px;
+  width: 400px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+/* .eye {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 50%;
+  display: inline-block;
+} */
+
+#mouth {
+  height: 75px;
+  width: 200px;
+  background-color: brown;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+
+.left-eye,
+.right-eye {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.right-eye {
+  left: 250px;
+}

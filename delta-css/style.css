@@ -1,0 +1,85 @@
+button:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+button:active {
+  background-color: slateblue;
+  color: blanchedalmond;
+}
+
+p:active {
+  background-color: #70f000;
+  color: black;
+}
+
+input[id="yes"]:checked + label {
+  color: green;
+  font-weight: bold;
+}
+
+input[id="no"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+
+p::first-letter {
+  color: #70f000;
+  background-color: black
+}
+
+p::first-line{
+  color: blue;
+  background-color: yellowgreen;
+}
+
+h1::selection{
+  background-color: #ff69b4;
+}
+
+form {
+  background-color: #234355;
+  color: hotpink;
+
+}
+
+input {
+  background-color: inherit;
+  color: inherit;
+}
+
+input::placeholder {
+  color: inherit;
+}
+
+button{
+  background-color: inherit;
+  color: inherit;
+}
+
+h2{
+  background-color: yellow;
+}
+
+
+h2{
+  background-color: orange;
+}
+
+#foot {
+  background-color: #70f000;
+}
+
+h5 {
+  background-color: orange;
+  
+}
+
+ul {
+  background-color: hotpink;
+}
+
+li {
+  background-color: blue;
+}
+

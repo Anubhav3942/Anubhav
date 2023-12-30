@@ -1,0 +1,12 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  margin: 10px;
+  border: 3px solid black;
+  display: inline-block;
+}
+
+#wow {
+    display: none;
+}

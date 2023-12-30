@@ -1,0 +1,161 @@
+/* basic css */
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: hotpink;
+  text-align: center;
+  /* border: 2px solid black; */
+  margin: 20px auto;
+}
+
+div:nth-of-type(2n) {
+  background-color: aquamarine;
+}
+
+div:nth-of-type(3n) {
+  background-color: orange;
+}
+
+
+
+
+/* transform  rotate*/
+/* 
+
+#one {
+  transform: rotate(45deg);
+}
+
+#two {
+  transform: rotate(-45deg);
+}
+
+#three {
+  transform: rotate(-90deg);
+}
+
+#four {
+  transform: rotate(-46deg);
+}
+
+#five {
+  transform: rotate(75deg);
+}
+
+#six {
+  transform: rotate(110deg);
+} */
+
+
+
+
+
+
+
+
+
+
+/* transform scale  */
+/* 
+#two {
+    transform: scale(0.5);
+}
+
+
+#three {
+    transform: scale(1);
+}
+
+
+#four {
+    transform: scale(1.5);
+} 
+
+#five {
+    transform: scale(1.5, 1);
+} 
+
+#six {
+    transform: scale(2, 1.7);
+} */
+
+
+
+
+
+
+
+
+/* transform translate  */
+/* 
+#one {
+    transform: translate(-100px, 100px);
+}
+
+
+#two {
+    transform: translate(70px);
+}
+
+
+#three {
+    transform: translate(0, 56px);
+}
+
+
+#four {
+    transform: translate(-30px, -90px);
+} */
+
+
+
+
+
+
+
+
+
+/* taransform skew  */
+
+/* 
+#two {
+    transform: skew(-45deg);
+}
+
+
+#three {
+    transform: skew(-67deg);
+}
+
+
+#four {
+    transform: skew(100deg);
+} */
+
+
+
+
+
+
+
+
+
+
+/* box-shadow */
+
+/* 
+#two {
+
+    box-shadow: 10px 10px  10px black;
+}
+
+
+#three {
+   box-shadow: 3px 5px 5px black;
+}
+
+
+#four {
+   box-shadow: 7px 7px 7px orange;
+} */
