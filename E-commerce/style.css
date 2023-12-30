@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ffcc00; /* Change to your preferred hover color */
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.ecommerce-footer {
+  background-color: #ebebeb;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #247cb6;
+}
+
+a:hover {
+  color: black;
+  transform: scale(2);
+}
+
+h4 {
+  color: blue;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.footer-links {
+  margin-left: 30px;
+}
+
+.footer-newsletter {
+  margin-left: 30px;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+input {
+  border-radius: 8px;
+}
+
+.footer-newsletter button {
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background-color: orangered;
+  transform: scale(1.1);
+  transition-duration: 0.15s;
+}
+
+.social-icons a {
+  color: black;
+  padding: 3px;
+}
+
+.social-icons a :hover {
+  color: #0028da;
+  transform: scale(1.5);
+  transition-duration: 0.2s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links ul {
+      margin-top: 10px;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  
+    .product-card {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .product-card {
+      flex-basis: calc(100% - 20px);
+    }
+  }
