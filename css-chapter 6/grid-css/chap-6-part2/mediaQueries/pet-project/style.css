@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navh2 {
+  color: goldenrod;
+}
+
+span {
+  color: goldenrod;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 2px solid black;
+  width: 400px;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+@media (max-width: 400px) {
+  #pets {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 8000px) {
+  #pets {
+    flex-wrap: wrap;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: lightblue;
+  color: black;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  transition-duration: 0.08s;
+}
+
+button:hover {
+  background-color: #00aaff;
+}
+
+button:active {
+  transform: scale(0.85);
+}
+
+.navbar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: #e7e9eb;
+  align-items: center;
+}
+
+#navlinks {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  margin: 1rem;
+  font-size: 1.6rem;
+  color: black;
+  animation: 0.1s;
+}
+
+ul li a:hover {
+  text-decoration: 2.5px underline orange;
+}
+
+.navbtn {
+  display: flex;
+  align-items: center;
+}
+
+.navbtn a {
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: goldenrod;
+  display: inline-block;
+}
+
+#mainhead {
+  margin: 15px;
+}
+
+.footer {
+  border: 3px soild black;
+  height: 200px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  #navlinks {
+    display: none;
+  }
+}
+
+/* Pets
+
+
+
+Get Involved
+
+Ways to help
+
+Shelter / Rescue
+
+Sign up
+Log in
+
+Our Organization
+
+About Adopt a Pet
+Blog
+Press room
+Contact
+
+Information
+
+Sitemap
+Privacy policy
+Terms of service
+Cookies
+Accessibility
+Mars, Incorporated
+AdChoices
+Your privacy choices Your privacy choices
+
+
+Sign up for our newsletter
+ 
+Send
+ */
